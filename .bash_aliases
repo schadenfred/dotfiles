@@ -11,3 +11,5 @@ alias gitcm='git commit -am'
 alias gitb='git branch'
 alias gitc='git checkout'
 alias gitws='git diff --shortstat "@{0 day ago}"' # how many lines of code you have written today
+
+alias buttafly='cd work/opensource/engines/buttafly'
