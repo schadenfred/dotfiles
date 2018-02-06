@@ -1,8 +1,13 @@
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".bashrc .vimrc .vim"        # list of files/folders to symlink in homedir
+# dotfiles directory
+dir=~/dotfiles
+
+# old dotfiles backup directory
+olddir=~/dotfiles_old
+
+# list of files/folders to symlink in homedir
+files=".bashrc .vimrc .vim .bash_aliases .gitconfig"        
 
 ##########
 
