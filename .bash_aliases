@@ -1,4 +1,3 @@
-alias e="$EDITOR"
 alias gp="git push origin HEAD"
 
 # Git aliases
@@ -12,4 +11,13 @@ alias gitb='git branch'
 alias gitc='git checkout'
 alias gitws='git diff --shortstat "@{0 day ago}"' # how many lines of code you have written today
 
-alias buttafly='cd work/opensource/engines/buttafly'
+# guard
+alias begs='bundle exec guard'
+
+# rails
+
+alias bras='bin/rails s'
+alias brac='bin/rails c'
+
+# buttafly
+alias buttafly='cd ~/work/opensource/engines/buttafly'
